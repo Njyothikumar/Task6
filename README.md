@@ -58,4 +58,4 @@ This repository contains a text classification system for categorizing consumer 
 ![App Screenshot](https://drive.google.com/uc?id=14X7h7qRorbFy0wTJnE6tIiX0kyLQb9pC)
 
 ### Prediction Example
-![App Screenshot](https://drive.google.com/file/d/1RwD41wnmnq_uq1FVdhDva1NEMvUcXDas/view?usp=sharing)
+![App Screenshot](https://drive.google.com/uc?id=1RwD41wnmnq_uq1FVdhDva1NEMvUcXDas)
