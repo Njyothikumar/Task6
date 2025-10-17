@@ -1,116 +1,53 @@
-Consumer Complaints Text Classification
+# Consumer Complaints Text Classification
 
-This repository contains a text classification system for categorizing consumer complaints into predefined classes, including Credit Reporting, Debt Collection, Consumer Loan, and Mortgage. The objective is to automate the labeling process to facilitate downstream complaint management and analysis.
+This repository contains a text classification system for categorizing consumer complaints into specific categories: Credit Reporting, Debt Collection, Consumer Loan, and Mortgage. The system automates labeling to support effective complaint management.
 
-Table of Contents
+## Table of Contents
 
-Project Structure
+- [Project Structure](#project-structure)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Requirements](#requirements)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Pipeline Overview](#pipeline-overview)  
+- [Screenshots](#screenshots)
 
-Features
+## Project Structure
 
-Tech Stack
+- `text-classification.html` — HTML export of the notebook  
+- `text-classification.ipynb` — Jupyter notebook with full implementation  
+- `README.md` — Project documentation  
+- `requirements.txt` — Python package dependencies  
 
-Requirements
+## Features
 
-Installation
+- Multi-class text classification into four categories  
+- Text preprocessing including cleaning and tokenization  
+- Model training and evaluation using machine learning algorithms  
+- Performance evaluation with accuracy metrics and confusion matrices  
+- Prediction on new consumer complaint texts  
 
-Usage
+## Tech Stack
 
-Pipeline Overview
+- Python  
+- scikit-learn  
+- pandas  
+- matplotlib  
+- Jupyter Notebook  
 
-Screenshots
+## Requirements
 
-Project Structure
-Consumer-Complaints-Text-Classification/
-├── text-classification.html        # HTML export of the notebook
-├── text-classification.ipynb      # Jupyter Notebook with full implementation
-├── README.md                      # Project documentation
-├── requirements.txt               # Python package dependencies
+- Python 3.x  
+- Packages listed in `requirements.txt`  
 
-Features
+## Installation
 
-Multi-class text classification with four target categories
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Consumer-Complaints-Text-Classification.git
+   cd Consumer-Complaints-Text-Classification
 
-Data preprocessing: text normalization, tokenization, and cleaning
-
-Model training and evaluation using traditional machine learning algorithms
-
-Performance assessment via accuracy and confusion matrix
-
-New complaint text prediction functionality
-
-Tech Stack
-
-Language: Python
-
-Libraries:
-
-scikit-learn
-
-pandas
-
-matplotlib
-
-Jupyter Notebook
-
-Requirements
-
-Python 3.x
-
-Dependencies listed in requirements.txt
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/Consumer-Complaints-Text-Classification.git
-cd Consumer-Complaints-Text-Classification
-
-
-(Optional) Create and activate a virtual environment:
-
-python -m venv venv
-venv\Scripts\activate      # On Windows
-source venv/bin/activate   # On Unix/macOS
-
-
-Install the required packages:
-
-pip install -r requirements.txt
-
-Usage
-
-Launch Jupyter Notebook and open text-classification.ipynb:
-
-jupyter notebook
-
-
-Follow the cells sequentially to:
-
-Load and preprocess data
-
-Train classification models
-
-Evaluate performance
-
-Run prediction on new input samples
-
-Pipeline Overview
-
-Text Preprocessing:
-Removal of punctuation, stopwords, and application of normalization techniques.
-
-Feature Extraction:
-Conversion of text data into numerical vectors using techniques like TF-IDF.
-
-Model Training:
-Application of machine learning algorithms such as Logistic Regression or Naive Bayes.
-
-Evaluation:
-Use of accuracy scores and confusion matrices to assess performance.
-
-Prediction:
-Model inference on new complaint text inputs.
 
 ## Screenshots
 
