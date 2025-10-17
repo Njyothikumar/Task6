@@ -1,67 +1,116 @@
-# Consumer Complaints Text Classification
+Consumer Complaints Text Classification
 
-This project involves the classification of consumer complaints into specific categories such as Credit reporting, Debt collection, Consumer Loan, and Mortgage. The goal is to assist in organizing and addressing consumer complaints effectively.
+This repository contains a text classification system for categorizing consumer complaints into predefined classes, including Credit Reporting, Debt Collection, Consumer Loan, and Mortgage. The objective is to automate the labeling process to facilitate downstream complaint management and analysis.
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Requirements](#requirements)
-- [Installation Setup](#installation-setup)
-- [How to Run](#how-to-run)
-- [How This Project is Made](#how-this-project-is-made)
-- [Screenshots](#screenshots)
+Table of Contents
 
-## Project Structure
-The project is structured as follows:
-- `tesxt-classification.html`: Contains the code in html format. 
-- `text-classification.ipynb`: Jupyter notebooks with step-by-step code.
-- `readme`: README.md file
-- `requirements.txt`: Libraries required to run the project
+Project Structure
 
-## Features
-- Text classification into four complaint categories.
-- Preprocessing of text data, including cleaning and tokenization.
-- Use of machine learning models for classification.
-- Evaluation of model performance using accuracy and confusion matrices.
-- Prediction of new consumer complaints.
+Features
 
-## Tech Stack
-- Python
-- Scikit-Learn
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+Tech Stack
 
-## Requirements
-- Python 3.x
-- Libraries mentioned in `requirements.txt`
+Requirements
 
-## Installation Setup
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yourusername/Consumer-Complaints-Text-Classification.git]
-   cd Consumer-Complaints-Text-Classification
+Installation
 
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+Usage
 
-4. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
+Pipeline Overview
 
-## How to Run:
+Screenshots
 
-Navigate to the project directory.
-To train and evaluate a model, run the Jupyter notebooks.
-To make predictions on new consumer complaints, follow the instructions provided in the notebooks or scripts.
+Project Structure
+Consumer-Complaints-Text-Classification/
+├── text-classification.html        # HTML export of the notebook
+├── text-classification.ipynb      # Jupyter Notebook with full implementation
+├── README.md                      # Project documentation
+├── requirements.txt               # Python package dependencies
 
-## How This Project is Made
-This project is built using Python and various libraries, including Scikit-Learn for machine learning, Pandas for data manipulation, and Matplotlib for data visualization. The dataset is preprocessed, and text classification models are trained and evaluated. Predictions on new complaints are also demonstrated.
+Features
 
-For detailed step-by-step instructions and code, refer to the Jupyter notebooks in the directories.
+Multi-class text classification with four target categories
+
+Data preprocessing: text normalization, tokenization, and cleaning
+
+Model training and evaluation using traditional machine learning algorithms
+
+Performance assessment via accuracy and confusion matrix
+
+New complaint text prediction functionality
+
+Tech Stack
+
+Language: Python
+
+Libraries:
+
+scikit-learn
+
+pandas
+
+matplotlib
+
+Jupyter Notebook
+
+Requirements
+
+Python 3.x
+
+Dependencies listed in requirements.txt
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/Consumer-Complaints-Text-Classification.git
+cd Consumer-Complaints-Text-Classification
+
+
+(Optional) Create and activate a virtual environment:
+
+python -m venv venv
+venv\Scripts\activate      # On Windows
+source venv/bin/activate   # On Unix/macOS
+
+
+Install the required packages:
+
+pip install -r requirements.txt
+
+Usage
+
+Launch Jupyter Notebook and open text-classification.ipynb:
+
+jupyter notebook
+
+
+Follow the cells sequentially to:
+
+Load and preprocess data
+
+Train classification models
+
+Evaluate performance
+
+Run prediction on new input samples
+
+Pipeline Overview
+
+Text Preprocessing:
+Removal of punctuation, stopwords, and application of normalization techniques.
+
+Feature Extraction:
+Conversion of text data into numerical vectors using techniques like TF-IDF.
+
+Model Training:
+Application of machine learning algorithms such as Logistic Regression or Naive Bayes.
+
+Evaluation:
+Use of accuracy scores and confusion matrices to assess performance.
+
+Prediction:
+Model inference on new complaint text inputs.
 
 ## Screenshots
 
